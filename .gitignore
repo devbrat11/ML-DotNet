@@ -1,0 +1,8 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/AnalyticsService/.vs/AnalyticsService/v15/Server/sqlite3
+/.vs
+/AnalyticsService/AnalyticsService/obj/Debug/netcoreapp2.2
+/AnalyticsService/AnalyticsService/obj
