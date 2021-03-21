@@ -1,8 +1,8 @@
-﻿using AnalyticsService.Data;
-using AnalyticsService.Enums;
+﻿using MovieRatingPredictor.Data;
+using MovieRatingPredictor.Enums;
 using Microsoft.ML;
 
-namespace AnalyticsService.Interface
+namespace MovieRatingPredictor.Interface
 {
     public interface IDataStore
     {

@@ -1,6 +1,6 @@
 ﻿using Microsoft.ML.Data;
 
-namespace AnalyticsService.Model
+namespace MovieRatingPredictor.Model
 {
     public class EvaluationMetrics
     {

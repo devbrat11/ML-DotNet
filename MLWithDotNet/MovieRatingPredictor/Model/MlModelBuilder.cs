@@ -1,8 +1,8 @@
-﻿using AnalyticsService.Data;
+﻿using MovieRatingPredictor.Data;
 using Microsoft.ML;
 using Microsoft.ML.Trainers;
 
-namespace AnalyticsService.Model
+namespace MovieRatingPredictor.Model
 {
     public static class MlModelBuilder
     {

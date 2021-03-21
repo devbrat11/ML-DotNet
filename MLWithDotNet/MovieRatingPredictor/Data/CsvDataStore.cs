@@ -1,11 +1,11 @@
 ﻿using System;
 using System.IO;
-using AnalyticsService.Enums;
-using AnalyticsService.Interface;
-using AnalyticsService.Model;
+using MovieRatingPredictor.Enums;
+using MovieRatingPredictor.Interface;
+using MovieRatingPredictor.Model;
 using Microsoft.ML;
 
-namespace AnalyticsService.Data
+namespace MovieRatingPredictor.Data
 {
     public class CsvDataStore:IDataStore
     {

@@ -1,4 +1,4 @@
-﻿namespace AnalyticsService.Enums
+﻿namespace MovieRatingPredictor.Enums
 {
     public enum DataCategory
     {

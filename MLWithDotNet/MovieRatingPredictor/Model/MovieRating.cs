@@ -1,11 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.ML.Data;
+﻿using Microsoft.ML.Data;
 
-namespace AnalyticsService.Model
+namespace MovieRatingPredictor.Model
 {
+    /// <summary>
+    /// Model class for training data.
+    /// </summary>
     public class MovieRating
     {
         [LoadColumn(0)]
@@ -16,6 +15,9 @@ namespace AnalyticsService.Model
         public float Label;
     }
 
+    /// <summary>
+    /// Model class for predicted Rating.
+    /// </summary>
     public class MovieRatingPrediction
     {
         public float Label;
